@@ -1,0 +1,156 @@
+
+/* Base styles */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Lucida Sans Unicode";
+    font-size: 22px;
+    height: 100vh;
+    margin: 0;
+    color: #FFF;
+}
+
+
+/* General styles */
+
+.main-container{
+    width: 1440px;
+    height:900px;
+    border: 25px solid #2B81AC;
+    background-color: #3399CC;
+    margin: 50% auto;
+}
+
+.inner-container{
+    margin: 0 auto;
+    padding: 60px 0 119px;
+    width: 1166px;
+}
+
+.container-list{
+    width: 1166px;
+    font-size: 0;
+    text-align: center;
+}
+
+
+.container-list-item{
+    display: inline-block;
+    border: 2px solid #FFF;
+    height: 147px;
+    cursor: url('../images/cursor.png'), auto;
+    transition: opacity 0.3s ease;
+}
+
+.container-list-item:hover {
+    opacity: 0.5;
+}
+
+
+.container-list-item-description{
+    padding: 26px 0;
+}
+
+.container-list-text{
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.container-list-text + span {
+    margin-right: 15px;
+}
+
+
+.group-venice,
+.group-tel-avive,
+.group-cair,
+.group-new-york,
+.group-paris,
+.group-belgrade,
+.group-new-delhi,
+.group-tokyo {
+    width: 25%;
+}
+
+
+.group-lisbon,.group-san-francisco{
+    width: 50%;
+}
+
+
+/* Header's styles */
+
+.header-title{
+    font-size: 21px;
+    margin-bottom: 38px;
+}
+
+/* Main's style */
+
+.main-list{
+    width: 1170px;
+}
+
+/* First list item section' styles */
+
+.group-lisbon{
+    background-color: #3399CC;
+}
+
+.group-paris{
+    background-color: #33CCCC;
+}
+.group-belgrade{
+    background-color: #996699;
+}
+
+/* Second list item section' styles */
+
+.group-venice{
+    background-color: #C24747;
+}
+
+.group-tel-avive {
+    background-color: #E2674A;
+}
+.group-cair{
+    background-color: #FFCC66;
+}
+.group-new-york{
+    background-color: #99CC99;
+}
+
+
+/* Third list item section' styles */
+
+.group-new-delhi{
+    background-color: #669999;
+}
+
+.group-san-francisco{
+    background-color: #CC6699;
+}
+
+.group-tokyo {
+    background-color: #339966;
+}
+
+
+/* Four list item section' styles */
+.group-sydney{
+    width: 100%;
+    background-color: #666699;
+}
+
+/* Footer's styles */
+
+.footer-title{
+    margin-top: 35px;
+    font-size: 16px;
+}
+
